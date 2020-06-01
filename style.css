@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+h1{
+    color: rgb(255, 0, 0);
+}
+
+
+
+p, h2, h3, ul {
+color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: black;
+}
+
+.white{
+    color:white;
+}
+
+.hero{
+    background-image: url("images/hero.jpg");
+}
+
+.title{
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+.paragraph{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: start;
+    font-size: 18px;
+}
+
+.large{
+    font-size: 50px;
+}
+
+.flex_row{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_par{
+    flex:500px;
+}
+
+#Hobbies, #Song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.justify{
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: left;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.margin_paragraph{
+    margin: 20px;
+}
+
+.Margin_images{
+    margin: 20px;
+}
+
+.pic{
+    height: 250px;
+}
+
+.align{
+    text-align: center;
+}
+
+a{
+    /*Default state*/
+    outline: none; /*removes the outline when the link is focused*/
+    text-decoration: none; /*removes the underline*/
+    font-family: 'Oswald', sans-serif; /*link text font*/
+    font-weight: 300;
+}
+
+a:link { /*unvisited link*/
+    color: #E54548; /*text color*/
+}
+
+a:visited { /*visited link*/
+    color: #E54548 /*text color*/ 
+}
+
+a:focus { /*focused link*/
+    color: #FFFFFF; /*text color*/
+    background-color: #E54548; /*background color*/
+}
+
+a:hover { /*hovered link*/
+    font-weight: bold;  /*bold text*/
+}
+
+a:active { /*active link*/
+    background-color: #FFFFFF;
+    color: #404040 /*text color*/
+}
+
+.title{
+    padding: 50px;
+}
+
+.profile{
+    margin: 20px;
+}
+
+
+
